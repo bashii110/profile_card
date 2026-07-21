@@ -1,0 +1,19 @@
+name: profile_card_app
+description: A responsive profile card app with editable, persisted data.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.2.3
+  url_launcher: ^6.3.0
+  cupertino_icons: ^1.0.6
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
